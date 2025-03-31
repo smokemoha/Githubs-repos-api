@@ -51,10 +51,14 @@ mvn test
 
 Retrieves a list of non-fork repositories for a specified GitHub user.
 
-- **Endpoint**: `GET /api/repositories/{username}`
+- **Endpoint**:
+```bash
+ `GET /api/repositories/{username}`
+ ```
 - **Path Parameters**:
+```bash
   - `username` (string): GitHub username.
-
+```
 #### Success Response
 
 - **Status Code**: `200 OK`
